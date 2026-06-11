@@ -1,0 +1,70 @@
+# Sensor dimensions and characteristics
+# All sizes are in mm, origin at the center of the sensor (0, 0)
+sensor:
+  #Sensor shape: "rectangular" or "circular"
+  shape: "rectangular"
+
+  # Sensor overall size including the base in the X dimension (width)
+  size_x: 40
+  
+  # Sensor overall size including the base in the Y dimension (length)
+  size_y: 40
+
+  # Sensor active area size in the X dimension (width) if rectangular
+  size_x_sensor: 30.6
+
+  # Sensor active area size in the Y dimension (length) if rectangular
+  size_y_sensor: 30.6
+
+  # Sensor diameter if circular
+  diameter: 30.6
+  
+  # Total height of the sensor
+  height: 4
+  
+  # Height of the sensor base
+  base_height: 1
+
+mounting_holes:
+  # Diameter of the mounting holes
+  diameter: 4.4
+  
+  # X and Y coordinates of the mounting holes relative to the center
+  positions:
+    - [17, 17]
+    - [17, -17]
+    - [-17, 17]
+    - [-17, -17]
+
+magnets:
+  # Diameter of the embedded magnets
+  diameter: 3
+  
+  # Height (thickness) of the magnets
+  height: 1
+  
+  # Distance from the top of the magnets to the sensor surface
+  top_to_surface: 1
+  
+  # X and Y coordinates of the magnets relative to the center
+  positions:
+    - [-9, 9]
+    - [0, 9]
+    - [9, 9]
+    - [-9, 0]
+    - [0, 0]
+    - [9, 0]
+    - [-9, -9]
+    - [0, -9]
+    - [9, -9]
+
+port_cutout:
+  # Width of the cutout for the port connection
+  width: 11
+  
+  # Height of the cutout for the port connection
+  height: 6.5
+
+observation_window:
+  #width of the observation window
+  width: 20
