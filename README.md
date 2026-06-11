@@ -115,8 +115,8 @@ The repository includes three pre-configured sensors:
 
 | File | Description |
 |------|-------------|
-| `<name>_mold1.stl` |
-| `<name>_mold2.stl` |
+| `<name>_mold1.stl` | First-pour mold |
+| `<name>_mold2.stl` | Lower half of the second-pour mold |
 | `<name>_mold3.stl` |
 | `<name>_assembly.html` | Interactive 3D preview of all parts and sensor |
 
