@@ -82,7 +82,7 @@ A rectangular slot cut through the mold walls on the Y+ edge to route the sensor
 
 ### `observation_window`
 
-A rectangular cutout in the side wall of Mold 3 that exposes the interior cavity, making the elastomer fill level visible during the second pour. The elastomer is poured until it reaches the bottom edge of this opening — that edge acts as the fill line.
+A rectangular cutout in the side wall of Mold 3 that makes the elastomer fill level visible during the second pour. The elastomer is poured until it reaches the bottom edge of this opening — that edge acts as the fill line.
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -100,13 +100,24 @@ The repository includes three pre-configured sensors:
 | `sensor_2.yaml` | Circular | ⌀ 35 mm | 2 × 2 grid (4 magnets) |
 | `sensor_3.yaml` | Rectangular | 35 × 23 mm | 2 × 3 grid (6 magnets) |
 
+### Previews
+
+#### Sensor 1
+<img src="pictures/sensor_1.png" width="600" alt="Sensor 1 Preview" />
+
+#### Sensor 2
+<img src="pictures/sensor_2.png" width="600" alt="Sensor 2 Preview" />
+
+#### Sensor 3
+<img src="pictures/sensor_3.png" width="600" alt="Sensor 3 Preview" />
+
 ## Output Files
 
 | File | Description |
 |------|-------------|
-| `<name>_mold1.stl` | Bottom mold half |
-| `<name>_mold2.stl` | Top mold half |
-| `<name>_mold3.stl` | Lid / alignment plate |
+| `<name>_mold1.stl` |
+| `<name>_mold2.stl` |
+| `<name>_mold3.stl` |
 | `<name>_assembly.html` | Interactive 3D preview of all parts and sensor |
 
 ## Dependencies
